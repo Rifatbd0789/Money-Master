@@ -2,7 +2,7 @@
 function getInputValue(input) {
     const Input = document.getElementById(input);
     const InputString = Input.value;
-    Input.value = '';
+    // Input.value = '';
     const Value = parseFloat(InputString);
     return Value;
 }
